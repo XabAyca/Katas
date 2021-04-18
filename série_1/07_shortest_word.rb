@@ -1,5 +1,5 @@
 def find_short(s)
-  s.split.sort_by{|block| block.size}[0].size 
+  s.split.sort_by(&:size)[0].size 
 end
 
 def perform

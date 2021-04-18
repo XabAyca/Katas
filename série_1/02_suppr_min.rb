@@ -10,7 +10,7 @@ end
 
 def perform
   numbers=[1, 2, 3, 4, 5]
-  remove_smallest(numbers)
+  puts remove_smallest(numbers)
 end
 
 perform
